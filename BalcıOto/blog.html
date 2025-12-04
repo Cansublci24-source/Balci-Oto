@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog | Balcı Oto</title>
+    <!-- CSS DOSYANIN ADI NEYSE ONU YAZ: style.css veya balcioto.css -->
+    <link rel="stylesheet" href="balcioto.css">
+    <style>
+        .blog-archive {
+            padding: 50px 0;
+        }
+        .blog-archive .section-title {
+            margin-bottom: 26px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Üst Bar (index.html'dekiyle aynı olsun istiyorsan) -->
+    <div class="top-bar">
+        <div class="container">
+            <span>Balcı Oto • Güvenilir Otomotiv Hizmetleri</span>
+            <span>Telefon: <a href="tel:+905551112233">+90 555 111 22 33</a></span>
+        </div>
+    </div>
+
+    <!-- Header & Menü -->
+    <header class="site-header">
+        <div class="container header-inner">
+            <div class="logo-area">
+                <!-- Buraya logo görseli ekleyebilirsin -->
+                <!-- <img src="logo.png" alt="Balcı Oto Logosu"> -->
+                <span class="logo-text">Balcı<span>Oto</span></span>
+            </div>
+            <nav class="main-nav">
+                <a href="index.html">Anasayfa</a>
+                <a href="index.html#hakkimizda">Hakkımızda</a>
+                <a href="index.html#hizmetler">Hizmetler</a>
+                <a href="index.html#araclar">Araçlar</a>
+                <a href="blog.html">Blog</a>
+                <a href="index.html#iletisim" class="nav-btn">İletişim</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Blog Arşiv -->
+    <section class="blog-archive section section-alt">
+        <div class="container">
+            <div class="section-title">
+                <h2>Blog Yazıları</h2>
+                <p>Otomotiv, araç alım-satım ve bakım hakkında yazılar.</p>
+            </div>
+
+            <div class="blog-grid">
+                <article class="blog-card">
+                    <h3>İkinci El Araç Alırken Nelere Dikkat Etmelisiniz?</h3>
+                    <p>
+                        Araç alırken ekspertiz, tramer ve kilometre sorgulama gibi adımların neden kritik olduğunu anlattık.
+                    </p>
+                    <a href="blog-detay-1.html" class="read-more">Yazıyı oku</a>
+                </article>
+
+                <article class="blog-card">
+                    <h3>Aracınızın Değerini Korumak İçin 5 Öneri</h3>
+                    <p>
+                        Düzenli bakım, boya koruma ve doğru kullanım ile aracınızın ikinci el değerini nasıl yüksek tutarsınız?
+                    </p>
+                    <a href="blog-detay-2.html" class="read-more">Yazıyı oku</a>
+                </article>
+
+                <article class="blog-card">
+                    <h3>Şehir İçi Kullanım İçin Hangi Araç Daha Mantıklı?</h3>
+                    <p>
+                        Sedan mı, hatchback mi, SUV mu? Günlük kullanım ve yakıt tüketimine göre seçim rehberi.
+                    </p>
+                    <a href="blog-detay-3.html" class="read-more">Yazıyı oku</a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p>© <span id="year"></span> Balcı Oto. Tüm hakları saklıdır.</p>
+            <p>Web sitesi tasarım & kodlama: Balcı Oto</p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
