@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İkinci El Araç Alırken Nelere Dikkat Etmelisiniz? | Balcı Oto</title>
+    <link rel="stylesheet" href="balcioto.css">
+    <style>
+        .blog-detail {
+            max-width: 800px;
+            margin: 40px auto;
+            background: #fff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+        }
+        .blog-detail h1 {
+            margin-bottom: 16px;
+        }
+        .blog-detail .meta {
+            font-size: 0.9rem;
+            color: #777;
+            margin-bottom: 20px;
+        }
+        .blog-detail p {
+            margin-bottom: 14px;
+            line-height: 1.7;
+        }
+        .back-btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 18px;
+            border-radius: 8px;
+            background: var(--primary);
+            color: #fff;
+            text-decoration: none;
+        }
+        .back-btn:hover {
+            background: var(--primary-dark);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Üst Bar (balioto.html ile aynı görünmesi için) -->
+    <div class="top-bar">
+        <div class="container">
+            <span>Balcı Oto • Güvenilir Otomotiv Hizmetleri</span>
+            <span>Telefon: <a href="tel:+905551112233">+90 555 111 22 33</a></span>
+        </div>
+    </div>
+
+    <!-- Header & Menü -->
+    <header class="site-header">
+        <div class="container header-inner">
+            <div class="logo-area">
+                <!-- Buraya logo görseli ekleyebilirsin -->
+                <!-- <img src="logo.png" alt="Balcı Oto Logosu"> -->
+                <span class="logo-text">Balcı<span>Oto</span></span>
+            </div>
+            <nav class="main-nav">
+                <a href="balcioto.html">Anasayfa</a>
+                <a href="balcioto.html#hakkimizda">Hakkımızda</a>
+                <a href="balcioto.html#hizmetler">Hizmetler</a>
+                <a href="balcioto.html#araclar">Araçlar</a>
+                <a href="blog.html">Blog</a>
+                <a href="balcioto.html#iletisim" class="nav-btn">İletişim</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Blog Detay -->
+    <section class="blog-detail">
+        <h1>İkinci El Araç Alırken Nelere Dikkat Etmelisiniz?</h1>
+        <div class="meta">Yayın Tarihi: 04 Aralık 2025 • Yazar: Balcı Oto</div>
+
+        <p>
+            İkinci el araç alırken ilk bakılması gereken nokta, aracın geçmişidir. Tramer kaydı, hasar durumu,
+            değişen ve boyalı parçalar mutlaka kontrol edilmelidir. Sadece “hasarsız” denmesine güvenmek,
+            ileride sürpriz masraflara yol açabilir.
+        </p>
+
+        <p>
+            Kilometre bilgisi de kritik bir faktördür. Düşük km her zaman iyi demek değildir, ancak km ile
+            aracın yaşı arasında mantıklı bir oran olmalıdır. Ayrıca periyodik bakım kayıtları incelenmeli,
+            aracın düzenli bakımdan geçip geçmediği kontrol edilmelidir.
+        </p>
+
+        <p>
+            Satın almadan önce mutlaka bağımsız bir ekspertize gitmek gerekir. Motor durumu, şasi,
+            yürüyen aksam ve elektronik sistemler detaylı şekilde incelenmelidir. Test sürüşü yapmadan
+            da kesinlikle araç alınmamalıdır.
+        </p>
+
+        <p>
+            Son olarak, aracı alacağınız kişi ya da kurumun güvenilir olması önemlidir. Kurumsal bir
+            firmadan araç almanız, olası sorunlarda çözüm sürecini hızlandırır ve sizi yalnız bırakmaz.
+        </p>
+
+        <a href="blog.html" class="back-btn">← Tüm Yazılara Dön</a>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p>© <span id="year"></span> Balcı Oto. Tüm hakları saklıdır.</p>
+            <p>Web sitesi tasarım & kodlama: Balcı Oto</p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>

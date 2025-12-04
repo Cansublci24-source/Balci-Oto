@@ -1,0 +1,126 @@
+ <!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Şehir İçi Kullanım İçin Hangi Araç Daha Mantıklı? | Balcı Oto</title>
+    <link rel="stylesheet" href="balcioto.css">
+    <style>
+        .blog-detail {
+            max-width: 800px;
+            margin: 40px auto;
+            background: #fff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+        }
+        .blog-detail h1 {
+            margin-bottom: 16px;
+        }
+        .blog-detail .meta {
+            font-size: 0.9rem;
+            color: #777;
+            margin-bottom: 20px;
+        }
+        .blog-detail p {
+            margin-bottom: 14px;
+            line-height: 1.7;
+        }
+        .blog-detail h2 {
+            font-size: 1.1rem;
+            margin: 16px 0 8px;
+        }
+        .back-btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 18px;
+            border-radius: 8px;
+            background: var(--primary);
+            color: #fff;
+            text-decoration: none;
+        }
+        .back-btn:hover {
+            background: var(--primary-dark);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Üst Bar -->
+    <div class="top-bar">
+        <div class="container">
+            <span>Balcı Oto • Güvenilir Otomotiv Hizmetleri</span>
+            <span>Telefon: <a href="tel:+905551112233">+90 555 111 22 33</a></span>
+        </div>
+    </div>
+
+    <!-- Header & Menü -->
+    <header class="site-header">
+        <div class="container header-inner">
+            <div class="logo-area">
+                <!-- Buraya logo görseli ekleyebilirsin -->
+                <!-- <img src="logo.png" alt="Balcı Oto Logosu"> -->
+                <span class="logo-text">Balcı<span>Oto</span></span>
+            </div>
+            <nav class="main-nav">
+                <a href="balcioto.html">Anasayfa</a>
+                <a href="balcioto.html#hakkimizda">Hakkımızda</a>
+                <a href="balcioto.html#hizmetler">Hizmetler</a>
+                <a href="balcioto.html#araclar">Araçlar</a>
+                <a href="blog.html">Blog</a>
+                <a href="balcioto.html#iletisim" class="nav-btn">İletişim</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Blog Detay -->
+    <section class="blog-detail">
+        <h1>Şehir İçi Kullanım İçin Hangi Araç Daha Mantıklı?</h1>
+        <div class="meta">Yayın Tarihi: 04 Aralık 2025 • Yazar: Balcı Oto</div>
+
+        <p>
+            Şehir içi kullanımda en büyük sorunlardan biri park yeri bulmak ve trafikte manevra yapmaktır.
+            Bu nedenle araç seçimi yaparken sadece dış tasarıma değil, kullanım senaryonuza da bakmalısınız.
+        </p>
+
+        <h2>Hatchback Araçlar</h2>
+        <p>
+            Kompakt yapıları sayesinde dar sokaklarda ve sıkışık trafikte büyük avantaj sağlarlar.
+            Park etmesi daha kolaydır ve genelde yakıt tüketimleri düşüktür.
+        </p>
+
+        <h2>Sedan Araçlar</h2>
+        <p>
+            Bagaj hacmi geniştir ve uzun yol konforu yüksektir. Ancak park konusunda hatchback
+            modellere göre daha zahmetli olabilirler. Aile kullanımında sık tercih edilir.
+        </p>
+
+        <h2>SUV Modeller</h2>
+        <p>
+            Yüksek oturma pozisyonu ve geniş iç hacim sunar. Ancak şehir içi için yakıt tüketimi ve
+            park etme açısından dezavantajlı olabilir. Sık uzun yol yapanlar için daha mantıklı hale gelir.
+        </p>
+
+        <p>
+            Günlük kullanımınız daha çok kısa mesafe, okul-iş-ev rotası ise genellikle
+            <strong>hatchback veya küçük sedan modeller</strong> şehir içi için daha mantıklı
+            bir tercih olacaktır.
+        </p>
+
+        <a href="blog.html" class="back-btn">← Tüm Yazılara Dön</a>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p>© <span id="year"></span> Balcı Oto. Tüm hakları saklıdır.</p>
+            <p>Web sitesi tasarım & kodlama: Balcı Oto</p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+
+</body>
+</html>
